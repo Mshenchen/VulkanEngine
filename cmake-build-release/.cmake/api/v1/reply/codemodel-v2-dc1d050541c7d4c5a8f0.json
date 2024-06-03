@@ -1,0 +1,222 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Platform",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-Platform-Release-c4367f00623003809246.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Platform",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "Platform/External/glfw",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-Platform.External.glfw-Release-14256323fee392121723.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Platform/External/glfw"
+				},
+				{
+					"build" : "Platform/External/glfw/src",
+					"jsonFile" : "directory-Platform.External.glfw.src-Release-5489b5b81dd377f452f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "Platform/External/glfw/src",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "Core",
+					"jsonFile" : "directory-Core-Release-b3854b2db255c35a81c1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Core",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Editor",
+					"jsonFile" : "directory-Editor-Release-7a308ff03f205fcb7b81.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Editor"
+				},
+				{
+					"build" : "Sample",
+					"childIndexes" : 
+					[
+						7
+					],
+					"jsonFile" : "directory-Sample-Release-caed6328e2443eda527e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Sample"
+				},
+				{
+					"build" : "Sample/SandBox",
+					"jsonFile" : "directory-Sample.SandBox-Release-5ce3c5ffe40bd4b9e304.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "Sample/SandBox",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "AdiosyEngine",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 7,
+					"id" : "SandBox::@07d2af709ebe7cebe019",
+					"jsonFile" : "target-SandBox-Release-02c1166fa5a32cdf85e2.json",
+					"name" : "SandBox",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "adiosy_core::@94795ff35dabbbd3a8ca",
+					"jsonFile" : "target-adiosy_core-Release-b6cfcb8831b917369c5f.json",
+					"name" : "adiosy_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "adiosy_platform::@be182d4d8601e04fa5cc",
+					"jsonFile" : "target-adiosy_platform-Release-003c5659414347ccae76.json",
+					"name" : "adiosy_platform",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@ad7389fef29b2006dd00",
+					"jsonFile" : "target-glfw-Release-19e85a58be09c04eb334.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "update_mappings::@ad7389fef29b2006dd00",
+					"jsonFile" : "target-update_mappings-Release-fdd142a92ad8229c1fbb.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/UnityProject/adiosy_engine/cmake-build-release",
+		"source" : "E:/UnityProject/adiosy_engine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

@@ -1,0 +1,25 @@
+# ninja log v5
+99	1469	7390828727629150	Platform/External/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj	443b15d8ceea1714
+0	1489	7390828727504510	Platform/CMakeFiles/adiosy_platform.dir/Private/AdWindow.cpp.obj	5c804d0e533d94e7
+159	1511	7390828727629150	Platform/External/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj	b4925cbb378011f0
+79	1531	7390828727639337	Platform/External/glfw/src/CMakeFiles/glfw.dir/init.c.obj	d58565e161efc913
+139	1549	7390828727629150	Platform/External/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj	afa42b002dee256
+179	1568	7390828727629150	Platform/External/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj	c87cda434321d8bb
+59	1588	7390828727639337	Platform/External/glfw/src/CMakeFiles/glfw.dir/context.c.obj	a48f1a6465a64633
+220	1590	7390828727639337	Platform/External/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj	c079df8d167151f8
+240	1591	7390828727776630	Platform/External/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj	cd8d007f13bab9b3
+120	1592	7390828727756568	Platform/External/glfw/src/CMakeFiles/glfw.dir/input.c.obj	310429e9a44bbc3c
+200	1594	7390828728260945	Platform/External/glfw/src/CMakeFiles/glfw.dir/window.c.obj	6a4e70921b3069bd
+260	1666	7390828729497967	Platform/External/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj	49785e3a02f09f0c
+1550	1671	7390828729657546	Core/CMakeFiles/adiosy_core.dir/Private/AdApplication.cpp.obj	b18a7c6202b130e0
+1491	2495	7390828737914371	Platform/External/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj	988268ae3b73d5b8
+1531	2510	7390828738055397	Platform/External/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj	176e08c3de72fdee
+1471	2522	7390828738180075	Platform/External/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj	a776b4ceba580f5d
+1511	2539	7390828738341340	Platform/External/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj	25d9da3ab0303b2f
+2540	2734	7390828739848370	lib/libglfw3.a	78a7e55811b043e0
+21	8815	7390828800544902	Platform/CMakeFiles/adiosy_platform.dir/Private/Window/AdGLFWwindow.cpp.obj	f08a103306630e70
+1568	10020	7390828812899657	Sample/SandBox/CMakeFiles/SandBox.dir/Main.cpp.obj	b43810111c9d6a2c
+40	10234	7390828814949625	Platform/CMakeFiles/adiosy_platform.dir/Private/AdLog.cpp.obj	1655e935d5cc55c6
+10234	33141	7390829044326195	lib/libadiosy_platform.a	b2a423000a34b2c9
+33141	33263	7390829045596944	lib/libadiosy_core.a	ac30b0c7c4be72dc
+33263	77879	7390829491413575	bin/SandBox.exe	5534ff217ddd0e1d
