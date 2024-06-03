@@ -18,5 +18,7 @@ int main(){
         window->SwapBuffer();
     }
 
+    
+
     return EXIT_SUCCESS;
 }
