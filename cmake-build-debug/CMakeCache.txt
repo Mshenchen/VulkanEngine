@@ -341,6 +341,18 @@ GLFW_USE_HYBRID_HPG:BOOL=OFF
 //Assume the Vulkan loader is linked with the application
 GLFW_VULKAN_STATIC:BOOL=OFF
 
+//Path to a program.
+Vulkan_GLSLANG_VALIDATOR_EXECUTABLE:FILEPATH=E:/vulkan/Bin/glslangValidator.exe
+
+//Path to a program.
+Vulkan_GLSLC_EXECUTABLE:FILEPATH=E:/vulkan/Bin/glslc.exe
+
+//Path to a file.
+Vulkan_INCLUDE_DIR:PATH=E:/vulkan/Include
+
+//Path to a library.
+Vulkan_LIBRARY:FILEPATH=E:/vulkan/Lib/vulkan-1.lib
+
 
 ########################
 # INTERNAL cache entries
@@ -536,6 +548,16 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 DINPUT_H_FOUND:INTERNAL=1
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Details about finding Vulkan
+FIND_PACKAGE_MESSAGE_DETAILS_Vulkan:INTERNAL=[E:/vulkan/Lib/vulkan-1.lib][E:/vulkan/Include][cfound components: glslc glslangValidator ][v1.3.216()]
+//ADVANCED property for variable: Vulkan_GLSLANG_VALIDATOR_EXECUTABLE
+Vulkan_GLSLANG_VALIDATOR_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Vulkan_GLSLC_EXECUTABLE
+Vulkan_GLSLC_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Vulkan_INCLUDE_DIR
+Vulkan_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Vulkan_LIBRARY
+Vulkan_LIBRARY-ADVANCED:INTERNAL=1
 //Have include xinput.h
 XINPUT_H_FOUND:INTERNAL=1
 //linker supports push/pop state
